@@ -12,7 +12,3 @@ For this notebook to work, your Jupyter environment must have the following pack
 <br><br>
 All weather data for this notebook was obtained using the Global Historical Climatology Network daily (GHCNd) dataset. This publicly available dataset integrates daily climate summaries from land stations around the globe for more than a century: 
 https://www.ncei.noaa.gov/products/land-based-station/global-historical-climatology-network-daily 
-
-
-
-"# Snow-Days" 
