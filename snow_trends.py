@@ -71,7 +71,7 @@ def prompt_for_year():
     from ipywidgets import interactive
     import os
     from IPython.display import display
-    directory_list = os.listdir("data\Snow_Trends_Data\First-Snow-Dates")
+    directory_list = os.listdir("data/Snow_Trends_Data/First-Snow-Dates")
     available_years = [int(filename.rstrip(".csv")) for filename in directory_list]
     available_years.sort(reverse=True) #Sort the list from most recent to most distant year
     dropdownWidget = interactive(lambda Year: Year, Year = available_years)
