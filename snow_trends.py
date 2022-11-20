@@ -38,7 +38,7 @@ def points_per_day(mergedDF, datetime_input):
 def generate_map(datetime_string, mergedDF, year):
     datetime_obj = datetime.datetime.strptime(datetime_string, "%b %d, %Y")
     pointMap = points_per_day(mergedDF, datetime_obj)
-    continentalUS = states.boundary.plot(figsize=(15,12), color='grey', linewidth=1)
+    continentalUS = states.boundary.plot(figsize=(13,10), color='grey', linewidth=1)
     plt.title(f"Stations Having Observed Snow in {year}-{year+1} Season", fontsize=24)
     plt.text(-125, 25, f"Up to:\n{datetime_string}", fontsize=15)
     plt.ylabel("Geodetic latitude, north (degree)", fontsize=15)
